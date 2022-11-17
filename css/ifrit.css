@@ -1,0 +1,90 @@
+body{
+	background-color: black;
+}
+
+footer{
+	background-color: #181818;	
+}
+
+h1{
+	margin: 10px;
+	font-family: 'Joti One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 67px;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+h2{
+	margin: 10px;
+	font-family: 'Joti One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 48px;
+
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+h3{
+	margin: 10px;
+	font-family: 'Joti One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+p{
+	
+	margin: 10px;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+
+	color: #FFFFFF;
+
+}
+
+ul{
+	margin: 10px;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+
+	color: #FFFFFF;
+}
+
+.mainRunner {
+	position:relative;
+}
+
+.backimg{
+	position:absolute; 
+	left: 489px;
+	top: 184px;
+	z-index: 1;
+}
+
+.frontimg{
+	position:absolute; 
+	left: 464px;
+	top: 159px;
+	z-index: 2;
+}
+
+.center{
+	text-align: center;
+}
