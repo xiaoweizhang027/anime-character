@@ -12,7 +12,10 @@ footer{
 
 header{
 	text-align: center;
+	padding:20px;
 }
+
+
 
 main{
 	 margin-left: 100px;
@@ -71,18 +74,16 @@ a:hover{
 	 border-radius: 30px;
 }
 
-.mainRunner {
-	position:relative;
+.front{
+	margin-top: 90px;
+	z-index: 0;
 }
-
-.backimg{
-	z-index: 1;
+.back{
+	position:absolute;
+	left: 79px;
+	top: -94px;
+	z-index: -1;
 }
-
-.frontimg{
-	z-index: 2;
-}
-
 .center{
 	text-align: center;
 }
